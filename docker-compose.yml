@@ -1,10 +1,10 @@
 version: '3.7'
 services:
- naba_webapp1:
-  image: naba_web13
+ nikhil_webapp1:
+  image: nikhil_web13
   build:
    context: .
    dockerfile: my.dockerfile
-  container_name: naba_c1
+  container_name: nikhil_c1
   ports:
    - "8001:80"
