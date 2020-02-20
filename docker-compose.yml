@@ -1,10 +1,10 @@
 version: '3.7'
 services:
- nikhil_webapp1:
-  image: nikhil_web13
+ vikash_webapp1:
+  image: vikash_web13
   build:
    context: .
    dockerfile: my.dockerfile
-  container_name: nikhil_c1
+  container_name: vikash_c1
   ports:
-   - "9888:80"
+   - "9889:80"
